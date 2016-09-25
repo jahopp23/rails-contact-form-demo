@@ -28,9 +28,9 @@ class MessagesControllerTest < ActionDispatch::IntegrationTest
       }
     }
 
-    assert_match /Name can.*t be blank/, response.body
-    assert_match /Email can.*t be blank/, response.body
-    assert_match /Body can.*t be blank/, response.body
+    assert_match /Name .* blank/, response.body
+    assert_match /Email .* blank/, response.body
+    assert_match /Body .* blank/, response.body
   end
 
 end
