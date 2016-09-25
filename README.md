@@ -1,24 +1,9 @@
-# README
+# Rails Contact Form Demo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to build a contact form with Rails 5.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- download the repo
+- cd into it
+- bundle install
+- bin/rails test
+- bin/rails server
